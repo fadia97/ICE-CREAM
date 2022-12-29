@@ -1,3 +1,10 @@
+/* 
+    Color-primary: #4a147c
+    Color-secondary: #9c079c
+
+*/
+
+
 * {
     padding: 0;
     margin: 0;
@@ -7,25 +14,6 @@
 body {
     background-color: #F0f0f0;
 }
-
-
-/* 
-main {
-    background-image: linear-gradient(to right bottom, rgba(74, 20, 124, 0.7),
-            rgba(111, 32, 185, 0.6)), url('../imag/my.jpg');
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-}
-
-main .main-title {
-    text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    text-transform: capitalize;
-    color: #FFF;
-} */
 
 .navbar {
     background-color: #4a147c;
@@ -47,7 +35,7 @@ main .main-title {
 }
 
 .navbar .nav-item:hover {
-    border-bottom: 3px solid rgb(18, 61, 141);
+    border-bottom: 3px solid #9c079c;
 
 }
 
@@ -171,8 +159,78 @@ main .main-title {
 }
  /*contact us*/
 
-/* signup*/
+.contact .card {
+    background-color: #4a147c;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
 
+.contact .header-text {
+    text-align: center;
+    color: #FFF;
+}
+
+.contact .form-group {
+    margin: 20px 0;
+}
+
+.contact .form-group label {
+    display: block;
+    margin: 10px 0;
+    color: #FFF;
+    text-transform: capitalize;
+}
+
+.contact .form-group .form-input {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    width: 100%;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.contact .form-group .form-input:focus{
+    border: none;
+    border-bottom: 3px solid #4a147c;
+    
+}
+
+.contact .form-group .form-input::placeholder{
+    color: #CCC;
+    font-size: 16px;
+}
+
+.contact .form-group button {
+    text-transform: uppercase;
+}
+
+/* footer*/
+
+.footer {
+    /* background-color: #9c079c; */
+    background-image: linear-gradient(to right bottom, #4a147c,#9c079c);
+}
+
+.footer .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer .social-media i {
+    font-size: 40px;
+}
+
+.footer .social-media i.face {
+    color: #00F
+}
+
+.footer .copyrigth {
+    color: #FFF;
+    text-align: center;
+    padding: 25px 0;
+}
   
 /* Login */
 
@@ -249,7 +307,7 @@ main .main-title {
 }
 
 .btn:hover {
-    transform: translate(0,-5px);
+    transform: translate(0,-3px);
     transition: all 0.5s ease-in;
     /* box-shadow: 0 20px 40px #333; */
 }
@@ -261,5 +319,9 @@ main .main-title {
 
 .btn.btn-primary {
     background-color: #4a147c;
+}
+
+.btn.btn-secondary {
+    background-color: #9c079c;
 }
 
