@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0f0f0;
+}
+
+
+/* 
+main {
+    background-image: linear-gradient(to right bottom, rgba(74, 20, 124, 0.7),
+            rgba(111, 32, 185, 0.6)), url('../imag/my.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+main .main-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FFF;
+} */
+
+.navbar {
+    background-color: #4a147c;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.navbar .nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.navbar .nav-item {
+    padding: 10px;
+}
+
+.navbar .nav-item:hover {
+    border-bottom: 3px solid rgb(18, 61, 141);
+
+}
+
+.navbar .nav-item a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+
+/* Header */
+
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.header .header-img {
+    width: 300px;
+    height: 300px;
+}
+
+.header .header-img img {
+    width: 100%;
+}
+
+
+.header .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #333;
+}
+
+.header .title-header {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 2;
+    text-transform: uppercase;
+}
+
+.header .title-par {
+    margin-bottom: 20px;
+}
+
+.header .title button {
+    width: 45%;
+}
+
+
+
+/* section */
+.section {
+    padding: 80px 60px;
+}
+
+
+/* About */
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    background-color: #CCC;
+}
+
+.about .about-text {
+    padding: 10px 40px;
+    width: 60%;
+}
+
+.about .about-text p {
+    line-height: 2;
+    text-align: justify;
+}
+
+.about .about-img {
+    width: 500px;
+    height: 500px;
+}
+
+.about .about-img img {
+    width: 100%;
+}
+
+
+
+/* prices */
+
+.prices .header-text {
+    text-align: center;
+}
+
+.prices .prices-card {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+.prices .card {
+    width: 300px;
+    /* height: 300px; */
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    margin: 0 15px;
+}
+
+.prices .card img {
+    width: 100%;
+}
+
+.prices .prices-btn {
+    text-align: center;
+}
+
+.prices .header-text {
+    text-align: center;
+}
+ /*contact us*/
+
+/* signup*/
+
+  
+/* Login */
+
+.login {
+    margin: 95px auto;
+    width: 50%;
+}
+
+.login .card {
+    background-color: #FFF;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.login .card .header-text {
+    text-align: center;
+}
+
+.login .form-group {
+    margin: 20px 0;
+}
+
+.login .form-group label {
+    display: block;
+    margin: 10px 0;
+    color: #333
+}
+
+.login .form-group .form-input {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    width: 100%;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.login .form-group .form-input:focus{
+    border: none;
+    border-bottom: 3px solid #4a147c;
+    
+}
+
+.login .form-group .form-input::placeholder{
+    color: #CCC;
+    font-size: 16px;
+}
+
+.login .form-group button {
+    text-transform: uppercase;
+}
+
+
+
+/* header text */
+.header-text {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0;
+    color: #4a147c;
+    text-transform: uppercase;
+}
+
+
+/* button */
+
+.btn {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translate(0,-5px);
+    transition: all 0.5s ease-in;
+    /* box-shadow: 0 20px 40px #333; */
+}
+
+.btn.btn-block {
+    width: 100%;
+}
+
+
+.btn.btn-primary {
+    background-color: #4a147c;
+}
+
